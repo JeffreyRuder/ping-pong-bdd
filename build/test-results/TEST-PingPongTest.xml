@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="PingPongTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2016-01-04T18:56:09" hostname="epicodus-38.local" time="0.003">
+<testsuite name="PingPongTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2016-01-04T19:14:45" hostname="epicodus-38.local" time="0.002">
   <properties/>
-  <testcase name="pingPong_forANumber_listUpToThatNumber" classname="PingPongTest" time="0.003">
+  <testcase name="pingPong_forANumber_listUpToThatNumber" classname="PingPongTest" time="0.002">
     <failure message="java.lang.AssertionError: expected:&lt;[1, 2]&gt; but was:&lt;[]&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;[1, 2]&gt; but was:&lt;[]&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:118)
 	at org.junit.Assert.assertEquals(Assert.java:144)
-	at PingPongTest.pingPong_forANumber_listUpToThatNumber(PingPongTest.java:14)
+	at PingPongTest.pingPong_forANumber_listUpToThatNumber(PingPongTest.java:15)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
