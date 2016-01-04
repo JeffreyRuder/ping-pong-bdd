@@ -7,11 +7,14 @@ public class PingPong {
     ArrayList<String> results = new ArrayList<String>();
 
     for (int i = 1; i <= number; i++) {
-      results.add(Integer.toString(i));
+      if (i % 3 == 0) {
+        results.add("Ping");
+      } else {
+        results.add(Integer.toString(i));
+      }
     }
 
     return results;
-
 
   }
 }
