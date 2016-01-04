@@ -7,7 +7,9 @@ public class PingPong {
     ArrayList<String> results = new ArrayList<String>();
 
     for (int i = 1; i <= number; i++) {
-      if (i % 3 == 0) {
+      if (i % 15 == 0) {
+        results.add("PingPong");
+      } else if (i % 3 == 0) {
         results.add("Ping");
       } else if (i % 5 == 0) {
         results.add("Pong");
