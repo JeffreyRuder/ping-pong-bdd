@@ -1,0 +1,7 @@
+The ping pong method counts from 1 to a given number. For example, we expect an input of 2 to return the ArrayList [1, 2].
+
+The ping pong method replaces multiples of 3 in the ArrayList with "Ping". For example, we expect an input of 3 to return the ArrayList [1, 2, Ping].
+
+The ping pong method replaces multiples of 5 in the ArrayList with "Pong". For example, we expect an input of 5 to return the ArrayList [1, 2, Ping, 4, Pong].
+
+The ping pong method replaces multiples of 3 and 5 in the ArrayList with "PingPong". For example, we expect an input of 15 to return the ArrayList [1, 2, Ping, 4, Pong, Ping, 7, 8, Ping, Pong, 11, Ping, 13, 14, PingPong].
