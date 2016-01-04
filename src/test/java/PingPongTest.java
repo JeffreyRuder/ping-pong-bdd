@@ -17,9 +17,16 @@ public class PingPongTest {
     PingPong pingPong = new PingPong();
     assertEquals(new ArrayList<>(Arrays.asList("1", "2", "Ping")), pingPong.pingPong(3));
   }
+
   @Test
   public void pingPong_forMultipleof5_addPongInsteadOfNumber() {
     PingPong pingPong = new PingPong();
     assertEquals(new ArrayList<>(Arrays.asList("1", "2", "Ping", "4", "Pong")), pingPong.pingPong(5));
+  }
+
+  @Test
+  public void pingPong_forMultipleOf15_addPingPongInsteadOfNumber() {
+    PingPong pingPong = new PingPong();
+    assertEquals(new String("PingPong"), pingPong.pingPong(15).get(14));
   }
 }

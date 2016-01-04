@@ -9,6 +9,8 @@ public class PingPong {
     for (int i = 1; i <= number; i++) {
       if (i % 3 == 0) {
         results.add("Ping");
+      } else if (i % 5 == 0) {
+        results.add("Pong");
       } else {
         results.add(Integer.toString(i));
       }
